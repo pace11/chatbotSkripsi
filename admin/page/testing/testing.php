@@ -68,14 +68,14 @@ error_reporting( error_reporting() & ~E_NOTICE )
                     $arrayData2 = array();
                     $arrayData1 = array_merge($arrayData2,$tmpArrper);
                     $push       = array();
-                    $sql = mysqli_query($conn, "SELECT kata_kunci FROM tbl_basispengetahuan")
-                            or die(mysqli_error($conn));
-                    $hitSql = mysqli_num_rows($sql);
+                    $sql        = mysqli_query($conn, "SELECT kata_kunci FROM tbl_basispengetahuan")
+                                or die(mysqli_error($conn));
+                    $hitSql     = mysqli_num_rows($sql);
                     while($data = mysqli_fetch_array($sql)) {
                     
-                    $isi      = explode(" ", $data['kata_kunci']);
+                    $isi        = explode(" ", $data['kata_kunci']);
                     array_push($push,$isi);
-                    $arrayData = array_merge($arrayData,$isi);
+                    $arrayData  = array_merge($arrayData,$isi);
     
                     }
                     
@@ -101,7 +101,6 @@ error_reporting( error_reporting() & ~E_NOTICE )
                         $idf         = array();
                         $cosine      = array();
 
-                        
     
                         for ($a=0;$a<$hitung;$a++) {
                             $df[$a]          = 0;

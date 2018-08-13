@@ -31,7 +31,7 @@
                 <span class="direct-chat-name pull-left">chatBot</span>
                 <span class="direct-chat-timestamp pull-right"><?= $tampil['date_in'] ?></span>
                 </div>
-                <img class="direct-chat-img" src="components/src/dist/img/chatbot.png" alt="message user image">
+                <img class="direct-chat-img" src="components/src/dist/img/chatbot2.png" alt="message user image">
                 <div class="direct-chat-text">
                 <?= $tampil['jawaban'] ?>
                 </div>

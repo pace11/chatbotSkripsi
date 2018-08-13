@@ -21,7 +21,7 @@
 
             if ($input){ ?>
                 <div class="callout callout-success">
-                  <p>Data berhasil disimpan<span class="fa fa-check"></span></p> 
+                  Data berhasil disimpan <span class="fa fa-check"></span>
                   <?php echo "<meta http-equiv='refresh' content='1;
                   url=?tampil=basispeng'>"; ?>
                 </div>

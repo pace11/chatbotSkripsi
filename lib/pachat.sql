@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 10, 2018 at 08:59 PM
+-- Generation Time: Aug 13, 2018 at 05:09 PM
 -- Server version: 10.1.31-MariaDB
 -- PHP Version: 7.2.3
 
@@ -41,7 +41,7 @@ CREATE TABLE `tbl_basispengetahuan` (
 --
 
 INSERT INTO `tbl_basispengetahuan` (`id_basispeng`, `kata_kunci`, `jawaban`, `deleted_at`, `updated_at`) VALUES
-(1, 'errormessageerrormessage', 'Maaf.. saya belum bisa menjawab pertanyaan anda. silahkan ajukan pertanyaan kembali :)', NULL, '2018-08-01 14:32:36'),
+(1, 'errormessageerrormessage', 'Maaf.. saya belum bisa menjawab pertanyaan anda. silahkan ajukan pertanyaan kembali :)', NULL, '2018-08-12 03:04:39'),
 (2, 'matakuliah wajib semester 3 s1 informatika', 'Matakuliah Wajib semester 3 S1 Informatika yaitu : C31040201 (STRUKTUR DATA - 2 SKS), C31040203 (PEMROGRAMAN VISUAL - 2 SKS), C31040205 (SISTEM OPERASI - 2 SKS), C31040207 (KOMUNIKASI DATA - 2 SKS),  C31040209 (PERANGKAT LUNAK JARINGAN 1 - 3 SKS),  C31040211 (TEKNIK DIGITAL + PRAK - 3 SKS),  C31040215 (KALKULUS 2 - 2 SKS), C31040217 (FISIKA LISTRIK & MAGNET - 2 SKS ),  C31040219 (SUMBER DAYA ENERGI - 2 SKS). JUMLAH TOTAL : 20 SKS', NULL, '2018-08-05 15:20:14'),
 (3, 'efisien isi krs', 'Waktu yang efisien dalam mengisi KRS adalah pada saat website anjungan mahasiswa sedang tidak digunakan oleh banyak mahasiswa pada waktu yang bersamaan, karena nantinya akan mengakibatkan proses yang lama dan lemot.', NULL, '2018-07-07 17:14:56'),
 (4, 'krs', 'Kartu Rencana Studi (KRS) adalah kartu yang digunakan untuk merencanakan Matakuliah yang akan diambil. Di kertas KRS akan tertera Nama anda, NIM anda, Jurusan, dan jumlah semester yang yang sedang diikuti. Kartu inilah yang menjadi bukti selain Kartu Tanda Mahasiswa (KTM) merupakan bukti jika anda mahasiswa aktif studi di STT PLN Jakarta. ', NULL, NULL),
@@ -116,7 +116,16 @@ INSERT INTO `tbl_basispengetahuan` (`id_basispeng`, `kata_kunci`, `jawaban`, `de
 (73, 'matakuliah wajib semester 4 d3 elektro', 'Matakuliah Wajib semester 4 D3 Elektro yaitu : E71040202 (SISTEM KONTROL - 2 SKS), E71040204 (PRAK SISTEM KONTROL - 1 SKS), E71040206 (PEMBUMIAN PERALATAN SISTEM TENAGA LISTRIK - 2 SKS), E71040208 (SERTIFIKASI 2 : KESELAMATAN KETENAGALISTRIKAN - 2 SKS), E71040210 (MESIN AS - 2 SKS), E71040212 (PRAK MESIN AS - 1 SKS), E71040214 (PRAK JARINGAN TRANSMISI - 2 SKS), E71040216 (MANAJEMEN TEKNIK - 2 SKS). Sisanya anda dapat mengambil MATAKULIAH PERMINATAN di SEMESTER 4. untuk melihat Matakuliah Perminatan Semester 4 D3 Elektro, bisa memberikan pertanyaan dengan format : MATAKULIAH PERMINATAN [spasi] SEMESTER 4 [spasi] D3 ELEKTRO.', NULL, NULL),
 (74, 'matakuliah wajib semester 5 d3 elektro', 'Matakuliah Wajib semester 5 D3 Elektro yaitu : E71040301 (PROTEKSI INSTALASI TENAGA LISTRIK - 2 SKS), E71040303 (PRAK PROTEKSI INSTALASI TENAGA LISTRIK - 2 SKS), E71040305 (INSTRUMENASI & PENGUKURAN - 2 SKS), E71040307 (PRAK PERALATAN KONTROL & INSTRUMEN - 2 SKS), E71040309 (PRAK INSTRUMENTASI & PENGUKURAN - 1 SKS). Sisanya anda dapat mengambil MATAKULIAH PERMINATAN di SEMESTER 5. untuk melihat Matakuliah Perminatan Semester 5 D3 Elektro, bisa memberikan pertanyaan dengan format : MATAKULIAH PERMINATAN [spasi] SEMESTER 5 [spasi] D3 ELEKTRO.', NULL, NULL),
 (75, 'matakuliah wajib semester 6 d3 elektro', 'Matakuliah Wajib semester 6 D3 Elektro yaitu :  E71040300 (KERJA MAGANG - 4 SKS),  E71040400 (PROYEK AKHIR - 6 SKS). JUMLAH TOTAL : 10 SKS', NULL, NULL),
-(76, 'matakuliah minat', 'Matakuliah Peminatan sebenarnya menyerupai Matakuliah Pilihan di jenjang S1. namun Peminatan lebih dikaitkan pada jurusan jenjang D3 terkhususnya D3 Elektro. Untuk mengetahui Matakuliah Perminatan lebih lanjut bisa memberikan pertanyaan dengan format : MATAKULIAH PERMINATAN [spasi] S1 INFORMATIKA.', NULL, NULL);
+(76, 'matakuliah minat', 'Matakuliah Perminatan sebenarnya menyerupai Matakuliah Pilihan di jenjang Jurusan S1. namun Perminatan lebih dikaitkan pada jurusan jenjang D3 terkhususnya D3 Elektro. Untuk mengetahui Matakuliah Perminatan lebih lanjut bisa memberikan pertanyaan dengan format : MATAKULIAH PERMINATAN [spasi] D3 ELEKTRO', NULL, '2018-08-11 18:13:40'),
+(77, 'matakuliah minat d3 elektro', 'Matakuliah Perminatan di D3 Elektro memiliki 3 perminata bidang yaitu : (1) Perminatan Pemanfaatan Tenaga Listrik, (2) Perminatan Distribusi Tenaga Listrik, dan (3) Perminatan Pembangkitan Tenaga Listrik. Matakuliah Perminatan di D3 Elektro mulai dapat diambil setelah berada di Semester 4 & 5. kembali lagi Matakuliah Perminatan tidak wajib untuk diambil semua perminatan bidangnya. mahasiswa cukup memilih bidang yang akan menjadi perminatannya pada semester depan dan akan membantu ketika mengerjakan Proyek Akhir (PA) nantinya. Untuk informasi lebih lanjut seputar Matakuliah Perminatan berdasarkan semesternya bisa memberikan pertanyaan dengan format : MATAKULIAH PERMINATAN [spasi] SEMESTER 4 [spasi] D3 ELEKTRO.', NULL, NULL),
+(78, 'matakuliah minat semester 4 d3 elektro', 'Matakuliah Perminatan semester 4 D3 Elektro yaitu : (1) Perminatan Pemanfaatan Tenaga Listrik => E71041202 (OPERASI PEMBANGKIT LISTRIK - 2 SKS), E71041204 (PRAK OPERASI PEMBANGKIT LISTRIK - 1 SKS), E71041206 (INSTALASI DISTRIBUSI & SAMBUNGAN TENAGA LISTRIK - 4 SKS). (2) Perminatan Distribusi Tenaga Listrik => E71042202 (SISTEM JARINGAN DISTRIBUSI TENAGA LISTRIK - 4 SKS), E71042204 (KONTRUKSI JARINGAN DISTRIBUSI TENAGA LISTRIK - 4 SKS). (3) Perminatan Pembangkitan Tenaga Listrik => E71043202 (SISTEM OPERASI PEMBANGKIT LISTRIK - 4 SKS), E71043204 (PRAK SISTEM OPERASI PEMBANGKIT LISTRIK - 2 SKS), E71043206 (INSTALASI DISTRIBUSI TENAGA LISTRIK - 2 SKS).', NULL, '2018-08-11 20:17:36'),
+(79, 'matakuliah minat semester 5 d3 elektro', 'Matakuliah Perminatan semester 5 D3 Elektro yaitu : (1) Perminatan Pemanfaatan Tenaga Listrik => E71041301 (PRAK INSTALASI DISTRIBUSI - 2 SKS), E71041303 (PRAK INSTALASI  SAMBUNGAN TENAGA LISTRIK - 2 SKS), E71041305 (INSTALASI BANGUNAN - 3 SKS), E71041307 (PRAK INSTALASI BANGUNAN - 1 SKS), E71041309 (INSTALASI INDUSTRI - 2 SKS). (2) Perminatan Distribusi Tenaga Listrik => E71042301 (PRAK KONSTRUKSI JARINGAN DISTRIBUSI TENAGA LISTRIK - 2 SKS), E71042303 (PENGOPERASIAN JARINGAN DISTRIBUSI TENAGA LISTRIK - 3 SKS), E71042305 (PRAK PENGOPERASIAN JARINGAN DISTRIBUSI TENAGA LISTRIK - 2 SKS), E71042307 (PEMELIHARAAN JARINGAN DISTRIBUSI TENAGA LISTRIK - 2 SKS), E71042309 (PRAK PEMELIHARAAN JARINGAN DISTRIBUSI TENAGA LISTRIK - 2 SKS), E71042311 (PRAK PENGUKURAN & APP - 2 SKS), E71042313 (SITE VISIT - 1 SKS). (3) Perminatan Pembangkitan Tenaga Listrik => E71043301 (TATA KELOLA PEMBANGKIT - 2 SKS), E71043303 (RLA [REMAINING LIFE ASSESMENT] - 2 SKS), E71043305 (PRAK RLA [REMAINING LIFE ASSESMENT] - 2 SKS), E71043307 (PRAK KIMIA TERAPAN - 1 SKS), E71043309 (PRAK PERAWATAN PEMBANGKIT LISTRIK - 2 SKS).', NULL, '2018-08-12 03:41:56'),
+(80, 'matakuliah wajib semester 1 d3 mesin', 'Matakuliah Wajib semester 1 D3 Mesin yaitu : E72040101 (PENDIDIKAN AGAMA - 2 SKS), E72040103 (BAHASA INDONESIA - 2 SKS), E72040105 (BAHASA INGGRIS TEKNIK - 2 SKS), E72040107 (MATEMATIKA TERAPAN 1 - 3 SKS), E72040109 (FISIKA MEKANIKA - 2 SKS), E72040111 (FISIKA FLUIDA & PANAS - 2 SKS), E72040113 (PRAK FISIKA MEKANIKA, FLUIDA & PANAS - 1 SKS), E72040115 (TEKNOLOGI MEKANIKA 1 - 2 SKS), E72040117 (PRAK TEKNIK KERJA BANGKU, PLAT, & LAS - 2 SKS), E72040119 (MENGGAMBAR TEKNIK - 2 SKS), E72040121 (PRAK GAMBAR TEKNIK - 1 SKS). JUMLAH TOTAL : 21 SKS.', NULL, NULL),
+(81, 'matakuliah wajib semester 2 d3 mesin', 'Matakuliah Wajib semester 2 D3 Mesin yaitu : E72040102 (PENDIDIKAN KEWARGANEGARAAN - 2 SKS), E72040104 (PENDIDIKAN PANCASILA - 2 SKS), E72040106 (MATEMATIKA TERAPAN 2 - 3 SKS), E72040108 (FISIKA LISTRIK & MAGNET - 2 SKS), E72040110 (PRAK FISIKA LISTRIK & MAGNET - 1 SKS), E72040112 (PROGRAM APLIKASI KOMPUTER - 2 SKS), E72040114 (MEKANIKA TEKNIK - 2 SKS), E72040116 (TEKNOLOGI MEKANIK 2 - 2 SKS), E72040118 (PRAK MESIN & PERKAKAS - 2 SKS), E72040120 (MENGGAMBAR MESIN - 2 SKS), E72040122 (PRAK MENGGAMBAR MESIN - 1 SKS). JUMLAH TOTAL : 21 SKS.', NULL, NULL),
+(82, 'matakuliah wajib semester 3 d3 mesin', 'Matakuliah Wajib semester 3 D3 Mesin yaitu : E72040201 (KIMIA TERAPAN - 2 SKS), E72040203 (PRAK KIMIA TERAPAN - 1 SKS), E72040205 (INSTRUMEN & PENGUKURAN - 2 SKS), E72040207 (PRAKTEK CAD/CAM - 1 SKS), E72040209 (TERMODINAMIKA & PERPINDAHAN PANAS - 2 SKS), E72040211 (PEMBANGKIT HIDRO - 2 SKS), E72040213 (MEKANIKA FLUIDA - 2 SKS), E72040215 (PLTU & PLTP - 2 SKS), E72040217 (ELEMEN MESIN 1 - 2 SKS), E72040219 (BAHAN BAKAR & TEKNIK PEMBAKARAN - 2 SKS), E72040221 (KETEL UAP & PENUKAR KALOR - 2 SKS). JUMLAH TOTAL : 20 SKS.', NULL, NULL),
+(83, 'matakuliah wajib semester 4 d3 mesin', 'Matakuliah Wajib semester 4 D3 Mesin yaitu : E72040202 (HUKUM KETENAGAKERJAAN - 2 SKS), E72040204 (SMK 3 - 2 SKS), E72040206 (SISTEM KONTROL - 1 SKS), E72040208 (PRAK SISTEM KONTROL - 2 SKS), E72040210 (PRAK INSTRUMEN & PENGUKURAN - 1 SKS), E72040212 (PRAK SIMULASI PLTU - 1 SKS), E72040214 (PLTG-U & PLTD - 2 SKS), E72040216 (ELEMEN MESIN 2 - 2 SKS), E72040218 (PERAWATAN ELEKTROMEKANIK - 2 SKS), E72040220 (PRAK PERAWATAN ELEKTROMEKANIK - 2 SKS), E72040222 (POMPA & KOMPRESOR - 2 SKS), E72040224 (PRAK POMPA & KOMPRESOR - 2 SKS). JUMLAH TOTAL : 21 SKS. ', NULL, NULL),
+(84, 'matakuliah wajib semester 5 d3 mesin', 'Matakuliah Wajib semester 5 D3 Mesin yaitu : E72040301 (KEWIRAUSAHAAN - 2 SKS), E72040303 (MANAJEMEN TEKNIK - 2 SKS), E72040305 (SUMBER DAYA ENERGI & TEKNIK LINGKUNGAN - 2 SKS), E72040307 (KINEMATIKA & DINAMIKA - 2 SKS), E72040309 (OPERASI & PERAWATAN PEMBANGKIT DIESEL - 2 SKS), E72040311 (PRAK OPERASI PEMBANGKIT DIESEL - 2 SKS), E72040313 (PERAWATAN MEKANIK PEMBANGKIT LISTRIK - 2 SKS), E72040315 (PRAK PERAWATAN MEKANIK PEMBANGKIT LISTRIK - 2 SKS), E72040317 (ILMU LOGAM - 2 SKS), E72040319 (PRAK PENGUJIAN BAHAN & METROLOGI - 1 SKS), E72040321 (PRAK PEMELIHARAAN PEMBANGKIT DIESEL - 2 SKS). JUMLAH TOTAL : 21 SKS.', NULL, NULL),
+(85, 'matakuliah wajib semester 6 d3 mesin', 'Matakuliah Wajib semester 6 D3 Mesin yaitu : ). E72040300 (KERJA MAGANG - 4 SKS), E72040400 (PROYEK AKHIR - 6 SKS). JUMLAH TOTAL : 10 SKS.', NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -148,7 +157,9 @@ INSERT INTO `tbl_pesan` (`id_pesan`, `nama`, `role_nama`, `pesan`, `stem`, `role
 (257, 'randis', 0, 'kamu kenapa ??', '', 1, 1, '2018-08-03 15:12:53'),
 (258, 'randis', 0, 'apa sih matakuliah itu ??', 'matakuliah', 1, 48, '2018-08-03 17:18:48'),
 (259, 'randis', 0, 'kamu ??', '', 1, 1, '2018-08-03 17:18:58'),
-(260, 'pace', 0, 'matakuliah wajib semester 1 s1 mesin', 'matakuliah wajib semester 1 s1 mesin', 1, 49, '2018-08-06 04:53:12');
+(260, 'pace', 0, 'matakuliah wajib semester 1 s1 mesin', 'matakuliah wajib semester 1 s1 mesin', 1, 49, '2018-08-06 04:53:12'),
+(261, 'mali', 0, 'hallo..', 'hallo', 1, 35, '2018-08-12 18:29:36'),
+(262, 'gege', 0, 'apa aja sih matakuliah wajib semester 3 s1 informatika', 'matakuliah wajib semester 3 s1 informatika', 1, 2, '2018-08-12 18:47:39');
 
 -- --------------------------------------------------------
 
@@ -203,13 +214,13 @@ ALTER TABLE `tbl_users`
 -- AUTO_INCREMENT for table `tbl_basispengetahuan`
 --
 ALTER TABLE `tbl_basispengetahuan`
-  MODIFY `id_basispeng` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=77;
+  MODIFY `id_basispeng` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=86;
 
 --
 -- AUTO_INCREMENT for table `tbl_pesan`
 --
 ALTER TABLE `tbl_pesan`
-  MODIFY `id_pesan` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=261;
+  MODIFY `id_pesan` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=263;
 
 --
 -- AUTO_INCREMENT for table `tbl_users`
