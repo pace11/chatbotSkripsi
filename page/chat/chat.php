@@ -1,6 +1,3 @@
-<?php 
-error_reporting( error_reporting() & ~E_NOTICE )
-?>
 <div class="content-wrapper">
     <div class="container">
       <!-- Content Header (Page header) -->

@@ -4,6 +4,7 @@
     {
       include "../lib/connection.php";
       date_default_timezone_set('Asia/Jakarta');
+      error_reporting( error_reporting() & ~E_NOTICE )
 ?>
 
 <!DOCTYPE html>

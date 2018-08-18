@@ -1,6 +1,3 @@
-<?php
-error_reporting( error_reporting() & ~E_NOTICE )
-?>
 <!-- section untuk input pertanyaan -->
 <section class="content">
   <div class="row">
